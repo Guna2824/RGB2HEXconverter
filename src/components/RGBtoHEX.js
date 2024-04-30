@@ -2,17 +2,17 @@
 function RGBtoHEX(rgb) {
 
   const rgbPattern = /rgb\((\d{1,3}),\s*(\d{1,3}),\s*(\d{1,3})\)/;
-  var rgbValue = rgbPattern.test(rgb)
+  const rgbValue = rgbPattern.test(rgb)
 
     if(rgbValue === false ){
       return (alert("Enter RGB value 0 - 255"),"#ffffff")
       
     }else{
 
-        var match = rgb.match(/\d+/g).map(Number)
-        var red = match[0]
-        var green = match[1]
-        var blue = match[2]
+        const match = rgb.match(/\d+/g).map(Number)
+        const red = match[0]
+        const green = match[1]
+        const blue = match[2]
         
         //-----------h value-----------------//
 
