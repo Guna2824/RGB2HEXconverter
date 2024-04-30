@@ -18,7 +18,7 @@ function App() {
 
     useEffect(()=>{
     setRGB(`rgb(${user.red},${user.green},${user.blue})`)
-    },[handleChange])
+    },[user])
 
     const click =(e)=>{
     e.preventDefault()

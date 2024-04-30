@@ -25,69 +25,69 @@ function RGBtoHEX(rgb) {
         var b = Math.floor(red%16)
   
           if(a < 10){
-            var h = a
+             h = a
           }else if(a === 10){
-            var h = "A"
+             h = "A"
           }else if(a === 11){
-            var h = "B"
+             h = "B"
           }else if(a === 12){
-            var h = "C"
+             h = "C"
           }else if(a === 13){
-            var h = "D"
+             h = "D"
           }else if(a === 14){
-            var h = "E"
+             h = "E"
           }else if(a === 15){
-            var h = "F"
+             h = "F"
           }
           
           if(h === ( 'A' || 'B' || 'C' || 'D' || 'E' || 'F')){
             var HH = h
           }else {
-            var HH = h
+             HH = h
           }
             
             if (b < 10){
-              var h = b
+               h = b
             }else if(b === 10 ){
-              var h = "A"
+               h = "A"
             }else if(b === 11){
-              var h = "B"
+               h = "B"
             }else if(b === 12){
-              var h = "C"
+               h = "C"
             }else if(b === 13){
-              var h = "D"
+               h = "D"
             }else if(b === 14){
-              var h = "E"
+               h = "E"
             }else if(b === 15){
-              var h = "F"
+               h = "F"
             }
             if(h === ( 'A' || 'B' || 'C' || 'D' || 'E' || 'F')){
               var HHH = h
             }else{
-              var HHH = h
+               HHH = h
             }
-            var h = HH+""+HHH
+             h = HH+""+HHH
         
         }else {
-          var a = Math.round(red/16)
-          var b = Math.round(red%16)
+           a = Math.round(red/16)
+           b = Math.round(red%16)
           if(a === 10){
-            var h = "A"
+             h = "A"
           }else if(a === 11){
-            var h = "B"
+             h = "B"
           }else if(a === 12){
-            var h = "C"
+             h = "C"
           }else if(a === 13){
-            var h = "D"
+             h = "D"
           }else if(a === 14){
-            var h = "E"
+             h = "E"
           }else if(a === 15){
-            var h = "F"
+             h = "F"
           }
           if(h === ( 'A' || 'B' || 'C' || 'D' || 'E' || 'F')){
-            var h = h+""+b
+             h = h+""+b
           }else{
-            var h = a+""+b
+             h = a+""+b
           }
         }
     // }
@@ -100,71 +100,71 @@ function RGBtoHEX(rgb) {
           var e = "00"
         }
         if(green%16 !== 0){
-        var a = Math.floor(green/16)
-        var b = Math.floor(green%16)
+         a = Math.floor(green/16)
+         b = Math.floor(green%16)
         
           if(a < 10){
-            var e = a
+             e = a
           }else if(a === 10){
-            var e = "A"
+             e = "A"
           }else if(a === 11){
-            var e = "B"
+             e = "B"
           }else if(a === 12){
-            var e = "C"
+             e = "C"
           }else if(a === 13){
-            var e = "D"
+             e = "D"
           }else if(a === 14){
-            var e = "E"
+             e = "E"
           }else if(a === 15){
-            var e = "F"
+             e = "F"
           }
           if(e === ( 'A' || 'B' || 'C' || 'D' || 'E' || 'F')){
             var EE = e
           }else {
-            var EE = e
+             EE = e
           }
         
             if(b < 10){
-              var e = b
+               e = b
             }else if(b === 10 ){
-              var e = "A"
+               e = "A"
             }else if(b === 11){
-              var e = "B"
+               e = "B"
             }else if(b === 12){
-              var e = "C"
+               e = "C"
             }else if(b === 13){
-              var e = "D"
+               e = "D"
             }else if(b === 14){
-              var e = "E"
+               e = "E"
             }else if(b === 15){
-              var e = "F"
+               e = "F"
             }
             if(e === ( 'A' || 'B' || 'C' || 'D' || 'E' || 'F')){
               var EEE = e
             }else{
-              var EEE = e
+               EEE = e
             }
-            var e = EE+""+EEE
+             e = EE+""+EEE
         }else {
-          var a = Math.round(green/16)
-          var b = Math.round(green%16)
+           a = Math.round(green/16)
+           b = Math.round(green%16)
           if(a === 10){
-            var e = "A"
+             e = "A"
           }else if(a === 11){
-            var e = "B"
+             e = "B"
           }else if(a === 12){
-            var e = "C"
+             e = "C"
           }else if(a === 13){
-            var e = "D"
+             e = "D"
           }else if(a === 14){
-            var e = "E"
+             e = "E"
           }else if(a === 15){
-            var e = "F"
+             e = "F"
           }
           if(e === ( 'A' || 'B' || 'C' || 'D' || 'E' || 'F')){
-            var e = e+""+b
+             e = e+""+b
           }else{
-            var e = a+""+b
+             e = a+""+b
           }
         }
     // }
@@ -177,71 +177,71 @@ function RGBtoHEX(rgb) {
           var u = "00"
         }
         if(blue%16 !== 0){
-        var a = Math.floor(blue/16)
-        var b = Math.floor(blue%16)
+         a = Math.floor(blue/16)
+         b = Math.floor(blue%16)
         
           if(a < 10){
-            var u = a
+             u = a
           }else if(a === 10){
-            var u = "A"
+             u = "A"
           }else if(a === 11){
-            var u = "B"
+             u = "B"
           }else if(a === 12){
-            var u = "C"
+             u = "C"
           }else if(a === 13){
-            var u = "D"
+             u = "D"
           }else if(a === 14){
-            var u = "E"
+             u = "E"
           }else if(a === 15){
-            var u = "F"
+             u = "F"
           }
           if(u === ( 'A' || 'B' || 'C' || 'D' || 'E' || 'F')){
             var UU = u
           }else {
-            var UU = u
+             UU = u
           }
             
             if(b < 10){
-              var u = b
+               u = b
             }else if(b === 10 ){
-              var u = "A"
+               u = "A"
             }else if(b === 11){
-              var u = "B"
+               u = "B"
             }else if(b === 12){
-              var u = "C"
+               u = "C"
             }else if(b === 13){
-              var u = "D"
+               u = "D"
             }else if(b === 14){
-              var u = "E"
+               u = "E"
             }else if(b === 15){
-              var u = "F"
+               u = "F"
             }
             if(u === ( 'A' || 'B' || 'C' || 'D' || 'E' || 'F')){
               var UUU = u
             }else{
-              var UUU = u
+               UUU = u
             }
-            var u = UU+""+UUU
+             u = UU+""+UUU
         }else {
-          var a = Math.round(blue/16)
-          var b = Math.round(blue%16)
+           a = Math.round(blue/16)
+           b = Math.round(blue%16)
           if(a === 10){
-            var u = "A"
+             u = "A"
           }else if(a === 11){
-            var u = "B"
+             u = "B"
           }else if(a === 12){
-            var u = "C"
+             u = "C"
           }else if(a === 13){
-            var u = "D"
+             u = "D"
           }else if(a === 14){
-            var u = "E"
+             u = "E"
           }else if(a === 15){
-            var u = "F"
+             u = "F"
           }
           if(u === ( 'A' || 'B' || 'C' || 'D' || 'E' || 'F')){
-            var u = u+""+b
+             u = u+""+b
           }else{
-            var u = a+""+b
+             u = a+""+b
           }
         }
     
