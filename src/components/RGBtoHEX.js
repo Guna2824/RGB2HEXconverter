@@ -16,7 +16,9 @@ function RGBtoHEX(rgb) {
         
         //-----------h value-----------------//
 
-        
+        if(red > 255){
+         return alert("Enter Red value 0 - 255")
+        }else{
         if(red === 0){
           var h = "00"
         }
@@ -90,12 +92,13 @@ function RGBtoHEX(rgb) {
              h = a+""+b
           }
         }
-    // }
-    //     //------------e value--------------------//
+      }
 
-    //     if(green > 255){
-    //         alert("Enter Green value 0 - 255")
-    //     }else{
+        //------------e value--------------------//
+
+        if(green > 255){
+            alert("Enter Green value 0 - 255")
+        }else{
         if(green === 0){
           var e = "00"
         }
@@ -167,12 +170,12 @@ function RGBtoHEX(rgb) {
              e = a+""+b
           }
         }
-    // }
-    //     //------------u value--------------------//
+    }
+        //------------u value--------------------//
      
-    //     if(blue > 255){
-    //         alert("Enter Blue value 0 - 255")
-    //     }else {
+        if(blue > 255){
+            alert("Enter Blue value 0 - 255")
+        }else {
         if(blue === 0){
           var u = "00"
         }
@@ -244,6 +247,7 @@ function RGBtoHEX(rgb) {
              u = a+""+b
           }
         }
+      }
     
         //--------------------------------//
         

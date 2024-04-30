@@ -11,8 +11,9 @@ function App() {
         green:"",
         blue:""
     })
-
-    const handleChange =(e)=>{
+console.log(user)
+console.log(rgb)
+const handleChange =(e)=>{
         setUser({...user,[e.target.name]:e.target.value})
     }
 
