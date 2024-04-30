@@ -4,7 +4,7 @@ import rgbToHex from "./RGBtoHEX"
 
 function App() {
    
-    const [color, setColor] = useState("white")
+    const [color, setColor] = useState("#FFFFFF")
     const [rgb, setRGB] = useState()
     const [user, setUser] = useState({
         red:"",
@@ -32,7 +32,7 @@ function App() {
             green:"",
             blue:""
         })
-        setColor("white")
+        setColor("#FFFFFF")
     }
 
     
@@ -85,7 +85,7 @@ function App() {
             </form>
             <div className="w-[90%] lg:w-[70%] flex flex-col items-center ">
                 <div className="border-2 border-gray-700 rounded-md my-4 w-[90%] lg:w-[70%] h-[100px] lg:h-[175px] text-center text-2xl font-semibold flex flex-col justify-center items-center transition-colors delay-75" style={{background:color}} >
-                    <input readOnly type="button" onClick={copyToClipboard} className="cursor-copy rounded-md py-1 px-3 lg:p-2 text-[15px] lg:text-[25px] lg:w-[35%] bg-white" style={{color:color}} value={color}/>
+                    <input readOnly type="button" onClick={copyToClipboard} className="cursor-copy rounded-md py-1 px-3 lg:p-2 text-[18px] lg:text-[25px] lg:w-[35%] bg-white border " value={color}/>
                 </div>
             </div>
         </div>
