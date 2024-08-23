@@ -62,19 +62,19 @@ const handleChange =(e)=>{
                     <p className=" w-[20%] text-red-700 rounded-md bg-red-600 md:bg-white">
                         <label className="invisible md:visible">RED</label>
                     </p>
-                    <input name="red" type="number" className=" shadow-xl rounded-md outline-none border-2 border-red-600 pl-4 py-2 w-[80%]" value={user.red} onChange={handleChange} />
+                    <input name="red" type="number" className=" shadow-xl rounded-md outline-none border-2 border-red-600 pl-4 py-2 w-[80%]" value={user.red.trim()} onChange={handleChange} />
                 </div>
                 <div className=" w-[90%] flex flex-row justify-center items-center gap-2">
                 <p className=" w-[20%] text-green-700 rounded-md bg-green-600 md:bg-white">
                         <label className="invisible md:visible">GREEN</label>
                     </p>
-                    <input name="green" type="number" className=" shadow-xl rounded-md outline-none border-2 border-green-700 pl-4 py-2 w-[80%]" value={user.green} onChange={handleChange} />
+                    <input name="green" type="number" className=" shadow-xl rounded-md outline-none border-2 border-green-700 pl-4 py-2 w-[80%]" value={user.green.trim()} onChange={handleChange} />
                 </div>
                 <div className="w-[90%] flex flex-row justify-center items-center gap-2">
                 <p className=" w-[20%] text-blue-700 rounded-md bg-blue-600 md:bg-white">
                         <label className="invisible md:visible">BLUE</label>
                     </p>                   
-                     <input name="blue" type="number" className=" shadow-xl rounded-md outline-none border-2 border-blue-700 pl-4 py-2 w-[80%]" value={user.blue} onChange={handleChange} />
+                     <input name="blue" type="number" className=" shadow-xl rounded-md outline-none border-2 border-blue-700 pl-4 py-2 w-[80%]" value={user.blue.trim()} onChange={handleChange} />
                 </div>
                 <div className="w-[90%] flex flex-row justify-center items-center gap-2 ">
                     <button type="submit" className="shadow-xl outline-none rounded-md w-[50%]  h-[40px] font-semibold text-white bg-yellow-400 hover:bg-yellow-600" onClick={(e)=>click(e)}>CONVERT</button>
