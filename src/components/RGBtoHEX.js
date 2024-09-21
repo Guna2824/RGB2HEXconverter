@@ -27,8 +27,8 @@ function RGBtoHEX(rgb) {
 
          //-----------e value-----------------//
 
-         if(green > 255 || red < 0){
-            alert('Enter red value 0 - 255')
+         if(green > 255 || green < 0){
+            alert('Enter green value 0 - 255')
            }
             let e = green.toString(16).toUpperCase();
    
@@ -38,8 +38,8 @@ function RGBtoHEX(rgb) {
 
              //-----------e value-----------------//
 
-         if(blue > 255 || red < 0){
-            alert('Enter red value 0 - 255')
+         if(blue > 255 || blue < 0){
+            alert('Enter blue value 0 - 255')
            }
             let u = blue.toString(16).toUpperCase();
    
